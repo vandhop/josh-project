@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buat lu nih sis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .motivational-message {
+            font-size: 24px;
+            color: #333;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="motivational-message">
+        <h1>anjay slebew</h1>
+        <p>pasti lu lagi beli buah</p>
+        <button class="btn" onclick="showMotivation()">pencet aja </button>
+        <p id="motivationText" style="display: none;">semangat kerja nya ya bro,udah cowo gajelas gausah dipikirin</p>
+    </div>
+
+    <script>
+        function showMotivation() {
+            var motivationText = document.getElementById("motivationText");
+            motivationText.style.display = "block";
+        }
+    </script>
+</body>
+</html>
